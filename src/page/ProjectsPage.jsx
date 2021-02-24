@@ -2,7 +2,6 @@ import React from "react"
 import { makeStyles, createStyles,Theme } from "@material-ui/core/styles";
 import {Typography} from "@material-ui/core"
 import Projects from "../components/Projects/Projects"
-
 const useStyles = makeStyles((theme) =>
     createStyles({
         projects:{
@@ -29,7 +28,10 @@ const useStyles = makeStyles((theme) =>
             color: "white",
             marginTop: "5vh",
         },
-        [theme.breakpoints.up("sm")]: {
+        [theme.breakpoints.down("md")]: {
+            projects:{
+                height: "120vh",
+            }
         },
         // eslint-disable-next-line comma-dangle
     })
@@ -39,8 +41,12 @@ const projects = [
     {
         title: "Meditation Project",
         description: "A meditation website that allows you to choose how long and to what sounds you want to meditate to. Built with React JS, and Material UI, and deployed through Git Hub Pages",
-        index: 0,
         website: "https://vivianha534.github.io/meditation-project/",
+    },
+    {
+        title: "Snapshot Project",
+        description: "A MERN stack project that allows you to create, delete, and edit memories, as well as like other's memories. Authentication using JWT and Google OAuth",
+        website: "https://cranky-hypatia-a1ad38.netlify.app/",
     }
 ]
 
