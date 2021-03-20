@@ -14,13 +14,13 @@ const useStyles = makeStyles((theme) =>
             paddingTop: "5vh",
         },
         slogan:{
-            color: "grey",
+            color: "#ADADAD",
         },
         name:{
             color: "white",
         },
         description: {
-            color: "grey",
+            color: "#ADADAD",
         },
         greeting: {
             color: "cyan",

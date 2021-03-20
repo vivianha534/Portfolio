@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) =>
         description:{
             marginTop: "5vh",
             fontSize: "20px",
-            color: "grey",
+            color: "#ADADAD",
         },
         list:{
             color: "white",
