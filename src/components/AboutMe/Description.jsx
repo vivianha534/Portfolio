@@ -103,11 +103,12 @@ const Description = () => {
                     </Typography>
 
                     <Typography className = {classes.text}>
-                        I am currently a second year computer science major, and a lead developer intern with ACM Teach LA at
-                        UCLA. Through ACM Teach LA, I lead a team of developers in creating interactive learn modules to help students
-                        gain a better understanding of math heavy computer science topics. I am also currently interning with the 
-                        non-profit organization Psypher LA to develeop a progressive web app to promote mental health and wellness
-                        in underserved communities.
+                        I am currently a second year computer science major, a learning labs project lead and static site director
+                        at ACM Teach LA at UCLA. As a learning labs project lead, I lead a team of developers in creating interactive learn modules 
+                        to help students gain a better understanding of math heavy computer science topics. In addition to my duties as a project lead,
+                        as the static site director at I am in charge of leading a group of developers in maintaining, and impelementing new features to
+                        our static site.I am a previous intern at the  non-profit organization Psypher LA, and in this role I helped to develeop a progressive 
+                        web app to promote mental health and wellness in underserved communities.
                     </Typography>
 
                     <Typography className = {classes.text}>

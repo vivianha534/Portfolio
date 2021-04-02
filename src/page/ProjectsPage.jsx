@@ -47,6 +47,11 @@ const projects = [
         title: "Snapshot Project",
         description: "A MERN stack project that allows you to create, delete, and edit memories, as well as like other's memories. Authentication using JWT and Google OAuth",
         website: "https://cranky-hypatia-a1ad38.netlify.app/",
+    },
+    {
+        title: "Netflix Clone",
+        description: "A Netflix clone built using React, Redux, axios, TMDB, and Firebase.",
+        website:"https://netflix-clone-8b751.web.app/",
     }
 ]
 

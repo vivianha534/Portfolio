@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import MeditationProject from "../../assets/Projects/MeditationProject.svg"
 import SnapShotProject from "../../assets/Projects/SnapShotProject.png"
+import NetflixClone from "../../assets/Projects/NetflixClone.svg"
 
 const useStyles = makeStyles((theme) =>
     createStyles({
@@ -43,6 +44,9 @@ export default function ProjectCard({project, idx}) {
         break;
       case 1:
         image = SnapShotProject
+        break;
+      case 2:
+        image = NetflixClone
         break;
     }
     return image;

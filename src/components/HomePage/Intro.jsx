@@ -93,7 +93,7 @@ const Intro = () => {
             <div className = {classes.description}>
                 <Typography className = {classes.text}>
                     I'm currently a second year undergraduate computer science major at the University of California, 
-                    Los Angeles (UCLA), and a software development intern for Psypher LA
+                    Los Angeles (UCLA), and a previous web dev intern for Psypher LA
                 </Typography>
             </div>
 
