@@ -5,7 +5,7 @@ import { makeStyles, createStyles,Theme } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) =>
     createStyles({
         about:{
-            height: "100vh",
+            minHeight: "100vh",
             backgroundColor: "white",
         }
         // eslint-disable-next-line comma-dangle

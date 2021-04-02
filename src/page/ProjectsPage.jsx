@@ -5,8 +5,9 @@ import Projects from "../components/Projects/Projects"
 const useStyles = makeStyles((theme) =>
     createStyles({
         projects:{
-            height: "100vh",
+            minHeight: "100vh",
             backgroundColor: "#01214b",
+            paddingBottom: "30px",
         },
         container:{
             marginLeft: "10vw",
@@ -27,11 +28,6 @@ const useStyles = makeStyles((theme) =>
         list:{
             color: "white",
             marginTop: "5vh",
-        },
-        [theme.breakpoints.down("md")]: {
-            projects:{
-                height: "120vh",
-            }
         },
         // eslint-disable-next-line comma-dangle
     })
