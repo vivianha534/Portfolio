@@ -103,12 +103,13 @@ const Description = () => {
                     </Typography>
 
                     <Typography className = {classes.text}>
-                        I am currently a second year computer science major, a learning labs project lead and static site director
-                        at ACM Teach LA at UCLA. As a learning labs project lead, I lead a team of developers in creating interactive learn modules 
+                        I am currently a third year computer science major, a learning labs project lead and static site director
+                        at ACM Teach LA at UCLA. As a learning labs project lead, I lead a team of developers in creating interactive learning modules 
                         to help students gain a better understanding of math heavy computer science topics. In addition to my duties as a project lead,
-                        as the static site director at I am in charge of leading a group of developers in maintaining, and impelementing new features to
-                        our static site.I am a previous intern at the  non-profit organization Psypher LA, and in this role I helped to develeop a progressive 
-                        web app to promote mental health and wellness in underserved communities.
+                        as the static site director I am in charge of leading a group of developers in maintaining, and impelementing new features to
+                        our static site. I am a previous intern at the  non-profit organization Psypher LA, and in this role I helped to develeop a progressive 
+                        web app to promote mental health and wellness in underserved communities. I am also a previous intern at DotDash, and during my internship,
+                        I implemented news schema badges on the four different VeryWell sites that touched over 3000+ articles, and increased EAT and SEO performance.
                     </Typography>
 
                     <Typography className = {classes.text}>
