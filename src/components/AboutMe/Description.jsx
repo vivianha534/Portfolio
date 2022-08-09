@@ -107,9 +107,9 @@ const Description = () => {
                         autofill hundreds of variables with default values by parsing a script of code making test for process engineers faster. I also developed a sidebar to persist compilation errors
                         and warnings using Angular and Angular JS making code corrections quicker and easier. I was also a previous intern at DotDash, and during my internship,
                         I implemented news schema badges on the four different VeryWell sites that touched over 3000+ articles, and increased EAT and SEO performance.
-                        I am also a previous intern at Psypher LA, and in this role I helped to develeop a progressive web app to promote mental health and wellness in underserved communities. I am also
+                        I am also a previous intern at Psypher LA, and in this role I helped to develeop a progressive web app to promote mental health and wellness in underserved communities.
                     </Typography>
-                    <Typography>
+                    <Typography className = {classes.text}>
                         Previously, I was a learning labs project lead and static site director
                         at ACM Teach LA at UCLA. As a learning labs project lead, I lead a team of developers in creating interactive learning modules 
                         to help students gain a better understanding of math heavy computer science topics. In addition to my duties as a project lead,
